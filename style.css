@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif; /* Clean, modern font */
+    line-height: 1.6;
+    background-color: #f8f9fa; /* Light background for clean look */
+    color: #995e5e;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+vh1, h2, h3 {
+    color: #333; 
+    margin-bottom: 10px;
+}
+.header {
+    background-color: #fff;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
